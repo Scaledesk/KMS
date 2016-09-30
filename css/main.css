@@ -1,0 +1,716 @@
+
+
+
+body{
+    background-color: #fff;
+    padding-top: 70px;
+    font-family: 'Montserrat-thin' , sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('../fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: Montserrat-thin;
+    src: url('../fonts/montserrat-hairline_thin.ttf');
+}
+
+p{
+    color: #999;
+    line-height: 1.6em;
+}
+
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.my-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+/*section{*/
+    /*padding: 70px 0;*/
+/*}*/
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////
+
+header section
+
+////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+.custom-nav{
+    background-color: #fff;
+    border: none;
+
+}
+
+.custom-brand{
+    padding: 15px;
+}
+
+.custom-nav ul li a, .custom-nav ul li p {
+    line-height: 70px;
+    color: #000;
+    font-size: 16px;
+}
+
+
+
+#header-section ,#image-carousel-section{
+    padding: 0;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////
+
+News room section
+
+////////////////////////////////////////////////////////////////////////////////////////*/
+
+#newsroom-section{
+    padding: 50px 0;
+}
+
+
+#container {
+    width: 100%;
+    margin: 2em auto;
+}
+
+.cols {
+    -moz-column-count:3;
+    -moz-column-gap: 3%;
+    -moz-column-width: 30%;
+    -webkit-column-count:3;
+    -webkit-column-gap: 3%;
+    -webkit-column-width: 30%;
+    column-count: 3;
+    column-gap: 3%;
+    column-width: 30%;
+}
+.box {
+    margin-bottom: 20px;
+}
+.box.one {
+    height: 200px;
+    background-color: #d77575;
+}
+.box.two {
+    height: 300px;
+    background-color: #dcbc4c;
+}
+.box.three {
+    background-color: #a3ca3b;
+    height: 400px;
+}
+.box.four {
+    background-color: #3daee3;
+    height: 500px;
+}
+.box.five {
+    background-color: #bb8ed8;
+    height: 600px;
+}
+.box.six {
+    background-color: #baafb1;
+    height: 200px;
+}
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////
+
+image banner section
+
+////////////////////////////////////////////////////////////////////////////////////////*/
+
+.main-bg-banner{
+    background-color: #ffe1bd;
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bg-banner-txt h1{
+    text-align: center;
+    font-family: 'Montserrat-Bold' , sans-serif;
+}
+
+.main-bg-banner-txt p{
+    text-align: center;
+    font-family: 'Montserrat-thin' , sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+
+.get-touch-btn{
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+
+.get-touch-btn:hover{
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.get-touch-btn:focus{
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+}
+
+
+
+
+/*OWL CSS*/
+
+#owl-demo .item{
+    margin: 3px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.title{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////
+
+our-venues-section
+
+////////////////////////////////////////////////////////////////////////////////////////*/
+
+#our-venues-section{
+    padding: 60px 0;
+}
+
+
+#our-venues-section h2{
+    font-family: 'Montserrat-thin' , sans-serif;
+
+}
+
+
+#our-venues-section h4{
+    font-family: 'Montserrat-Bold' , sans-serif;
+    margin: 10px 5px;
+
+}
+
+
+#our-venues-section h3{
+    font-family: 'Montserrat-thin' , sans-serif;
+    margin: 5px;
+
+}
+
+#our-venues-section h3:after{
+    content: "";
+    display: block;
+    margin: 15px 0;
+    line-height: 0;
+    height: 2px;
+    width: 10%;
+    background-color: #000;
+    font-family: 'Montserrat-thin' , sans-serif;
+
+
+}
+
+
+
+#our-venues-section .venues-txt > p:not(last-child) {
+    padding: 20px 0 0;
+
+}
+
+
+
+
+.learn-more-btn{
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px){
+    #our-venues-section{
+        margin-bottom: 40px;
+    }
+
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////
+
+about section
+
+////////////////////////////////////////////////////////////////////////////////////////*/
+
+#about-us-section{
+    background-color: #ffe1bd;
+    padding: 60px 0;
+}
+
+#about-us-section figure figcaption h3{
+    font-family: 'Montserrat-Bold' , sans-serif;
+    position: relative;
+    text-align: center;
+
+}
+
+#about-us-section figure figcaption h3:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 20%;
+    line-height: 0;
+    background-color: #000;
+    margin: 10px auto 0;
+    font-family: 'Montserrat-Bold' , sans-serif;
+
+}
+
+#about-us-section figure figcaption p{
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat-Regular' , sans-serif;
+
+}
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////
+
+clients says
+
+////////////////////////////////////////////////////////////////////////////////////////*/
+
+#our-clients{
+    padding: 60px 0;
+}
+
+#our-clients h3{
+    font-size: 20px;
+    font-family: 'Montserrat-Bold' , sans-serif;
+    text-align: -webkit-right;
+    margin-top: 0;
+}
+
+#our-clients h3:after{
+    content: "";
+    display: block;
+    font-family: 'Montserrat-Bold' , sans-serif;
+    width: 12%;
+    height: 2px;
+    background-color: #000;
+    line-height: 0;
+    margin: 10px 0 0 0;
+
+
+}
+
+.clients-txt{
+    padding: 0 100px 0 50px;
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////
+
+footer section
+
+////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+#footer-section{
+    background-color: #000000;
+    padding: 80px 40px;
+}
+
+
+.address-container p{
+    color: #fff;
+    margin: 20px 0;
+}
+
+.address-container p:first-child{
+    color: #fff;
+    margin:  0;
+}
+
+
+.social-icons{
+    padding-left: 0;
+}
+
+
+.social-icons li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+
+}
+
+
+
+
+.social-icons li{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.social-icons li a{
+    color: #000;
+    font-size: 22px;
+}
+
+
+
+.subscribe-form .form-group input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+
+}
+
+.subscribe-form .form-group textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+
+}
+
+
+.subscribe-form .form-group input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+.subscribe-form .form-group textarea:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+#footer-section .form-group .submit-btn{
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+.copyright-section{
+    background-color: #fff;
+    padding: 30px;
+}
+
+.copyright-section p:first-child{
+    font-family: 'Montserrat-Bold' , sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+}
+
+
+.copyright-section p{
+    text-align: center;
+    color: #000;
+}
+
+
+
+/*////////CSS helpers classes*/
+
+
+
+
+/*////Margins//////*/
+
+.m-0{
+    margin: 0!important;
+}
+
+.m-5{
+    margin: 5px!important;
+}
+
+.m-t-0{
+    margin-top: 0!important;
+}
+
+.m-b-0{
+    margin-bottom: 0!important;
+}
+
+.m-10{
+    margin: 10px!important;
+}
+
+.m-t-5{
+    margin-top: 5px!important;
+}
+
+.m-t-10{
+    margin-top: 10px!important;
+}
+
+
+.m-t-20{
+    margin-top: 20px!important;
+}
+
+
+.m-b-5{
+    margin-bottom: 5px!important;
+}
+
+.m-b-10{
+    margin-bottom: 10px!important;
+}
+
+.m-b-20{
+    margin-bottom: 20px!important;
+}
+
+
+.m-b-40{
+    margin-bottom: 40px!important;
+}
+
+.m-b-60{
+    margin-bottom: 60px!important;
+}
+
+.m-t-40{
+    margin-top: 40px!important;
+}
+
+.m-t-60{
+    margin-top: 60px!important;
+}
+
+.m-r-20{
+    margin-right: 20px!important;
+}
+
+
+.m-r-40{
+    margin-right: 40px!important;
+}
+
+.m-30{
+    margin: 30px!important;
+}
+
+/*////Ends here///*/
+
+
+
+
+
+/*///Padding//*/
+
+.p-0{
+    padding: 0!important;
+}
+
+.p-5{
+    padding: 5px!important;
+}
+
+
+.p-10{
+    padding: 10px!important;
+}
+
+.p-20{
+    padding: 20px!important;
+}
+
+.p-30{
+    padding: 30px!important;
+}
+
+.p-t-40{
+    padding-top: 40px!important;
+}
+
+.p-b-40{
+    padding-bottom: 40px!important;
+}
+
+
+/*///ends here////*/
+
+
+
+
+/*////Fonts////*/
+
+
+.f-12{
+    font-size: 12px!important;
+}
+
+
+.f-16{
+    font-size: 16px!important;
+}
+
+.f-17{
+    font-size: 17px!important;
+}
+
+.f-18{
+    font-size: 18px!important;
+}
+
+.f-20{
+    font-size: 20px!important;
+}
+
+.f-22{
+    font-size: 22px!important;
+}
+
+
+.f-24{
+    font-size: 24px!important;
+}
+
+.f-29{
+    font-size: 29px!important;
+}
+
+
+.w-100{
+    font-weight: 100!important;
+}
+
+
+.w-500{
+    font-weight: 500!important;
+}
+
+.w-800{
+    font-weight: 800!important;
+}
+
+
+.f-8{
+    font-size: 5em!important;
+}
+
+
+.c-white{
+    color: #fff!important;
+}
+
+.c-black{
+    color: #000!important;
+}
+
+
+
+
+/*///ends here///*/
+
+
+
+@media screen and (max-width: 768px){
+    section{
+        padding: 10px;
+    }
+
+    #footer-section ,#newsroom-section ,#our-venues-section ,.clients-txt{
+        padding: 10px;
+    }
+
+    .custom-brand{
+        padding: 3px 10px;
+    }
+
+    .custom-brand img{
+        width: 35px;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+
+    .m-t-60{
+        margin-top: 10px!important;
+    }
+
+    #our-venues-section .row{
+        margin-bottom: 10px!important;
+    }
+
+    .custom-nav ul li a, .custom-nav ul li p{
+        line-height: 30px;
+    }
+
+     .social-icons li{
+        margin-right: 5px;
+    }
+
+
+    .m-b-40{
+        margin-bottom: 20px !important;
+    }
+
+
+
+}
